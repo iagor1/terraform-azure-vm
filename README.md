@@ -2,10 +2,15 @@
 This code creates a vm and deploys on azure
 ## How to run 
 1 - install terraform
+
 2 - install azure cli
+
 3 - create or use an azure account
+
 4 - terraform init
+
 5 - terraform plan 
+
 6 - terraform apply
 
 if you didnt get any error terraform will create this resources virtual network,resource group, subnet, network interface and virtual machine.
