@@ -1,0 +1,24 @@
+# Local terraform directories
+*/.terraform/
+
+# State files
+.tfstate
+*.tfstate.
+
+# Crash log files
+*.log
+
+# Sensitive data
+*.tfvars
+*.tfbackend
+.idea
+
+
+# terraform
+terraform/prod.tfvars
+.terraform/
+terraform/vsphere-credentials.auto.tfvars
+terraform/*.auto.tfvars
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
